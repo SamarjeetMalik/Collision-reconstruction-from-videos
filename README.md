@@ -10,9 +10,6 @@ Starting from an input video of a collision sequence behind a curtain (top), SMA
 
 ## This repository
 
-### Dependencies
-##### Eigen <small>([link](http://eigen.tuxfamily.org/index.php?title=Main_Page))</small>
-##### OpenCV <small>([link](http://opencv.org/downloads.html))</small>
 | Core modules: | Contrib modules: |
 |:-------------:|:----------------:|
 | imgproc       | cudabgsegm       |
@@ -45,26 +42,7 @@ make -j 8
 ```
 
 ---
-### Example
-```bash
-wget http://geometry.cs.ucl.ac.uk/projects/2016/smash/paper_docs/smash_data.zip
-unzip smash_data.zip
-cd data/duckElephant
-cat run.sh
-../../bin/smash --intr intrinsics.txt \
-                --frames 0,101,203 \
-                --init 2dparabolasInit.json \
-                --cub cuboids.json \
-                --img-pattern orig240/color_%05d.jpg \
-                --fps 240 \
-                --show-flags 100000 \
-                --weight-velocity 3.16 \
-                --weight-conservation-lin 3.16 \
-                --weight-observed-q 1. \
-                --weight-observed-x 3.16
-```
 
----
 
 ### SMASH Blender plugin
 * Open the user <b>File</b> -> <b>User Preferences</b>,
