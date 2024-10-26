@@ -15,8 +15,6 @@
 | core          | [xfeatures2d](https://github.com/opencv/opencv_contrib/tree/master/modules/xfeatures2d) |
 Note: see [opencv_contrib/README.md](https://github.com/opencv/opencv_contrib/blob/master/README.md) for installation.
 
-### Platform
-The code was developed and tested on *Ubuntu 16.04 LTS* with *gcc 6.2*.
 
 ---
 
